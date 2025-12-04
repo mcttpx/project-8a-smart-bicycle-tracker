@@ -49,16 +49,3 @@ key files for the UI layer:
 
 other project files (e.g. `calculate_distance.py`, `distance_summary.py`, `distance_tabs.py`, `live_location.py`, `location_storage.py`, `ride_simulator.py`, etc.) 
 either feed data into the backend or are used by backend routes that power these APIs.
-
-
-C. Weekly Distance Card
-
-Data source: `GET /weekly_summary`
-
-Expected response shape (example):
-
-```json
-[
-  { "date": "2025-12-01", "distance_km": 4.23 },
-  { "date": "2025-12-02", "distance_km": 1.10 }
-]
